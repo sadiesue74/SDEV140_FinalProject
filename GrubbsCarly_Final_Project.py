@@ -1,3 +1,10 @@
+# Created by Carly Grubbs, 11/21/2023
+# Bible Study Application
+# This application will assist you in reviewing the different grouping of books of the Bible
+# It will allow the user to search the ASV for a specific verse
+# Help keep track of their own bible study
+# Linking to a website to allow for a topical search of the bible 
+
 # Importing libraries
 import tkinter
 from tkinter import *
