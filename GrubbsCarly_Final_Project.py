@@ -71,7 +71,7 @@ def search():
                 verse = (cell.value)
             verse_label = Label(bible_search, text = verse, font = ("Helvetica 14"), wraplength = 300).pack()
              
-# Function to close the application    Ju
+# Function to close the application
 def close():
     exit()
     
@@ -105,7 +105,7 @@ win.geometry("771x1200") # Setting the size of the application window
 
 img = ImageTk.PhotoImage(Image.open(path)) # Opening the picture for the background of the application
 
-label = Label(win, text=format_date, font=("Calibri", 25)).pack() # Displaying today"s date
+label = Label(win, text=format_date, font=("Calibri", 25)).pack() # Displaying today's date
 
 # Setting up the enter information for the bible verse search
 label1 = Label(win, text = "Please enter the book, chapter, and verse you are needing to review.", font = ("Helvetica", 12)).pack()
